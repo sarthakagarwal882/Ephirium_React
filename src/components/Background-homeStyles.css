@@ -1,0 +1,34 @@
+#background-home {
+    overflow: hidden;
+
+    background:
+        linear-gradient(180deg, rgba(64, 109, 108, 0) 68%, rgba(0, 0, 0, 0.8576680672268908) 99%),
+        url('https://i.imgur.com/gI6TlDt.jpg') no-repeat;
+
+    width: 98.9vw;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: blur(0px);
+    -webkit-filter: blur(0.3px);
+    opacity: 0.5;
+}
+
+@media (max-width:900px) {
+    #background-home {
+        background:
+            linear-gradient(180deg, rgba(64, 109, 108, 0) 68%, rgba(0, 0, 0, 0.8352591036414566) 99%),
+            url('https://i.imgur.com/bIlgYv7.jpg') no-repeat center;
+        /* background: url("/images/mobile.jpg") no-repeat center center; */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100vw;
+    }
+}
