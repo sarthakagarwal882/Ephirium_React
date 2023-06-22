@@ -16,11 +16,13 @@ function Footer() {
                     </div>
                     <div className="footer-games">
                         <h3>Games</h3>
+                        <p>BGMI</p>
                         <p>Valorant</p>
                         <p>CSGO</p>
                         <p>Among Us</p>
                         <p>COD mobile</p>
-                        <p>DOTA 2</p>
+                        <p>Fall Guys</p>
+                        <p>Apex Legends</p>
                     </div>
                     <div className="footer-contact">
                         <h3>Contact us</h3>
