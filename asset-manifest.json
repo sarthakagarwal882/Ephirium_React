@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Ephirium_React/static/css/main.279ac1c7.css",
-    "main.js": "/Ephirium_React/static/js/main.39359606.js",
+    "main.css": "/Ephirium_React/static/css/main.b6fcc33c.css",
+    "main.js": "/Ephirium_React/static/js/main.78349e5a.js",
     "static/js/787.6130d998.chunk.js": "/Ephirium_React/static/js/787.6130d998.chunk.js",
     "index.html": "/Ephirium_React/index.html",
-    "main.279ac1c7.css.map": "/Ephirium_React/static/css/main.279ac1c7.css.map",
-    "main.39359606.js.map": "/Ephirium_React/static/js/main.39359606.js.map",
+    "main.b6fcc33c.css.map": "/Ephirium_React/static/css/main.b6fcc33c.css.map",
+    "main.78349e5a.js.map": "/Ephirium_React/static/js/main.78349e5a.js.map",
     "787.6130d998.chunk.js.map": "/Ephirium_React/static/js/787.6130d998.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.279ac1c7.css",
-    "static/js/main.39359606.js"
+    "static/css/main.b6fcc33c.css",
+    "static/js/main.78349e5a.js"
   ]
 }
