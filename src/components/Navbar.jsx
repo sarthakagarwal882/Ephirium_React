@@ -2,7 +2,16 @@ import React, { useState } from "react";
 import "./NavbarStyles.css"
 function Navbar() {
 
+// const[height,setHeight]=useState();
 
+// const set=()=>{
+
+//     setHeight(addEventListener(scrollY));
+// };
+// function log(){
+//     console.log(height);
+//     set();
+// }
 
     return (
         <section id="navbar-main">

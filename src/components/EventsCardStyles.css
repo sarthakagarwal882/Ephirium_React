@@ -1,0 +1,35 @@
+#event-card {
+    width: 23vw;
+    height: 13vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.event-card-info {
+    display: inline-block;
+    height: 13vw;
+    width: 12vw;
+    background-color: aliceblue;
+    /* transform-origin: top;
+    transform: skew(-15deg); */
+}
+.event-card-info::after {
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 10%;
+    transform: skew(20deg);
+    background-color: aqua;
+    z-index: 200;
+}
+
+
+.event-img {
+    position: absolute;
+    width: 23vw;
+    height: 13vw;
+    z-index: -1;
+}
