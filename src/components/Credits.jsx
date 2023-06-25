@@ -8,7 +8,7 @@ const Credits = () => {
                 <h2>Contributors</h2>
                 <div className="credit-main">
                     <div className="credit-item credit-item-1">
-                        <img className="credit-img" src="https://i.imgur.com/7RhlMrM.jpg" alt="" />
+                        <img className="credit-img" src="https://i.imgur.com/D917Uwu.jpg" alt="" />
                         <hr />
                         <div>
                             <h3>Sarthak Agarwal</h3>
