@@ -7,8 +7,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Credits from "./components/Credits";
-import Events from "./components/Events";
-import Game from "./components/Game";
+
 
 function App() {
   return (

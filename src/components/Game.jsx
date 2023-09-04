@@ -1,13 +1,7 @@
-import React, { useRef, useState } from "react";
 import "./GameStyles.css"
 import GameCard from "./GameCard";
-
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
-// import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Keyboard, Navigation, Pagination } from "swiper";
@@ -16,11 +10,11 @@ import { Keyboard, Navigation, Pagination } from "swiper";
 
 const Game = () => {
 
-    function moduleSelect(){
-        if(window.innerWidth<=769)
-        return [Keyboard, Navigation,Pagination];
+    function moduleSelect() {
+        if (window.innerWidth <= 769)
+            return [Keyboard, Navigation, Pagination];
         else
-        return [Keyboard, Navigation];
+            return [Keyboard, Navigation];
     }
 
     return (
@@ -80,21 +74,7 @@ const Game = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-
-
-
-
-            {/* <div className="game-main">
-                <h2>Games</h2>
-                <GameCard />
-                <GameCard />
-                <GameCard />
-                <GameCard />
-                <GameCard />
-                <GameCard />
-                <GameCard />
-            </div> */}
-            <hr/>
+            <hr />
         </section>
     );
 };
