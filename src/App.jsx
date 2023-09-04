@@ -8,19 +8,19 @@ import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Credits from "./components/Credits";
 import Events from "./components/Events";
+import Game from "./components/Game";
+
 function App() {
   return (
     <div>
       <Hamburger />
       <Navbar />
       <Background />
-      <Home/>
-      <Intro/>
-      <Credits/>
-      <Footer/>
+      <Home />
+      <Intro />
+      <Credits />
+      <Footer />
     </div>
-
-/* <Events/> */
 
   );
 }

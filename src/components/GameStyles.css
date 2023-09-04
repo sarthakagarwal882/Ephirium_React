@@ -1,0 +1,16 @@
+.game-main{
+    text-align: center;
+}
+
+.game-main h2{
+    color: white;
+    font-size: 5rem;
+    /* text-align: left; */
+}
+
+#game{
+    width: 100vw;
+    background: rgb(73,7,21);
+background: linear-gradient(180deg, rgba(73,7,21,0.5467436974789917) 29%, rgba(12,46,23,0.5159313725490196) 72%, rgba(43,91,116,1) 100%);
+}
+
